@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Logo</div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Về chúng tôi</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="user-options">
+                <a href="#">Đăng nhập</a>
+                <a href="#">Giỏ hàng</a>
+                <form action="#" method="get">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <section class="product-list">
+            <div class="container">
+                <div class="filter-options">
+                    <select name="sort-by">
+                        <option value="price-asc">Giá: Thấp đến cao</option>
+                        <option value="price-desc">Giá: Cao đến thấp</option>
+                        <option value="name-asc">Tên: A đến Z</option>
+                        <option value="name-desc">Tên: Z đến A</option>
+                    </select>
+                    <button onclick="changeView('list')">Xem danh sách</button>
+                    <button onclick="changeView('grid')">Xem lưới</button>
+                </div>
+                <div class="product-cards">
+                    <!-- Thẻ sản phẩm 1 -->
+                    <div class="product-card">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p>Description of Product 1</p>
+                        <p>Price: $10</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Thẻ sản phẩm 2 -->
+                    <div class="product-card">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h3>Product 2</h3>
+                        <p>Description of Product 2</p>
+                        <p>Price: $20</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Thêm các thẻ sản phẩm khác tại đây -->
+                    <!-- Ví dụ: Thẻ sản phẩm 3 -->
+                    <div class="product-card">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h3>Product 3</h3>
+                        <p>Description of Product 3</p>
+                        <p>Price: $30</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Thẻ sản phẩm 4 -->
+                    <div class="product-card">
+                        <img src="product4.jpg" alt="Product 4">
+                        <h3>Product 4</h3>
+                        <p>Description of Product 4</p>
+                        <p>Price: $40</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Thẻ sản phẩm 5 -->
+                    <div class="product-card">
+                        <img src="product5.jpg" alt="Product 5">
+                        <h3>Product 5</h3>
+                        <p>Description of Product 5</p>
+                        <p>Price: $50</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Thẻ sản phẩm 6 -->
+                    <div class="product-card">
+                        <img src="product6.jpg" alt="Product 6">
+                        <h3>Product 6</h3>
+                        <p>Description of Product 6</p>
+                        <p>Price: $60</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <h3>Thông tin liên hệ:</h3>
+                <p><strong>Địa chỉ:</strong> Số nhà XX, Đường YY, Thành phố Z</p>
+                <p><strong>Email:</strong> example@example.com</p>
+                <p><strong>Điện thoại:</strong> 0123 456 789</p>
+            </div>
+            <div class="footer-right">
+                <h3>Bản quyền:</h3>
+                <p>Bản quyền © 2024. Tất cả các quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function changeView(viewType) {
+            // Hãy viết mã JavaScript để thay đổi kiểu hiển thị sản phẩm (list hoặc grid)
+        }
+    </script>
+</body>
+</html>
